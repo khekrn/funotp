@@ -1,18 +1,7 @@
-defmodule Funotp do
-  @moduledoc """
-  Documentation for `Funotp`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Funotp.hello()
-      :world
-
-  """
-  def hello do
-    :world
+defmodule FunOTP do
+  def hello(name) do
+    "Hello, #{name}"
   end
 end
+
+IO.puts(FunOTP.hello("Elixir"))
